@@ -1,5 +1,3 @@
-const { add, subtract } = require("./simple-math");
-
 function test(title, callback) {
   try {
     callback();
