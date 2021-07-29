@@ -1,4 +1,4 @@
-const { expect, test } = require("./testing-framework");
+// const { expect, test } = require("./testing-framework");
 const { add, subtract } = require("./simple-math");
 
 test("should add numbers", () => {
@@ -8,7 +8,7 @@ test("should add numbers", () => {
 });
 
 test("should subtract numbers", () => {
-  let actual = subtract(3, 7);
-  let expected = 10;
+  let actual = subtract(7, 3);
+  let expected = 4;
   expect(actual).toBe(expected);
 });
