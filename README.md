@@ -1,1 +1,1 @@
-# My collection for utility functions
+# Fundamentals of JavaScript Testing
